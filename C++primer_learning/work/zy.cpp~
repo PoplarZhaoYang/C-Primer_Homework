@@ -1,18 +1,19 @@
 #include <iostream>
-#include <vector>
-#include <bitset>
-using namespace std;
+
 
 int main()
 {
-    int i;
-    double d;
-    const string *ps;
-    char *pc;
-    void *pv;
-    pv = const_cast<string*>(ps);
-    i = static_cast<int>(*pc);
-    pv = static_cast<void*>(&d);
-    pc = reinterpret_cast<char*>(pv);
+    char c;
+    while (std::cin >> c) {
+        switch (c) {
+            int i;
+            case 'a':
+                break;
+            case 'b':
+                i = 1;
+                std::cout << i << std::endl;
+                break;
+        }
+    }
     return 0;
 }
